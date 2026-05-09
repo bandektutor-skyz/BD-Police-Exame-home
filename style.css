@@ -1,0 +1,25 @@
+.menu-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.quiz-button {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #b8860b; /* สีเหลืองทองแบบแอปคุณเตอร์ */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.quiz-button:hover {
+    background-color: #966f08;
+    transform: translateY(-2px);
+}
